@@ -1,11 +1,11 @@
 /* Example google font import */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 /* Target the title element and apply the following styles: */
 
 #title {
-  background-color: blue;
-  color: #ff0062;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
   padding: 15px;
   margin: 50px;
 
@@ -13,9 +13,13 @@
   border-color: #000000;
   border-radius: 50px;
 
-  font-family: 'Lobster', cursive;
+  font-family: 'Monserrat', sans-serif;
   font-size: 50px; 
   text-align: center;
 }
+body {
+  background: linear-gradient(to right, #dbdbdb, rgb(112, 112, 112)); /* pink to blue gradient */
+}
+
 
 
